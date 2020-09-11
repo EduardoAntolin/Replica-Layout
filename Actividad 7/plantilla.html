@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de pago</title>
+  </head>
+  <body>
+    <form>
+    <div class="container">
+      <center>
+        <br>
+          <img src="1.png" class="rounded-lg">
+            <br>
+           <h1>Formulario de pago</h1>
+           <br>
+           <h4>Esto es un ejemplo de formulario de pago</h4>
+      </center>
+      <br>
+      <h2>Dirección de facturación</h2>
+        <div class="row"> 
+          <div class="col-8">
+            <div class="row">
+
+              <div class="form-group col-6">
+                <label>Nombre</label>
+                <input type="text" class="form-control">
+              </div>
+                
+              <div class="form-group col-6">
+                <label>Apellidos</label>
+                <input type="text" class="form-control">
+              </div>
+            
+              <div class="col-12">
+                <div class=" form-group input-group flex-nowrap">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <label >Email address  (Optional)</label>
+                  <input type="email" class="form-control" placeholder="correo@lasallenoroeste.edu.mx" >
+                </div>
+              </div>
+    
+              <div class="col-12">
+                <div class="form-group">
+                  <label >Dirección de envío</label>
+                  <input type="email" class="form-control" placeholder="Veracruz S/N" >
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <label >Dirección 2 (Opcional)</label>
+                  <input type="email" class="form-control" placeholder="Número interior, Suite" >
+                </div>
+              </div>
+    
+    
+              <div class="col-5">
+                <div class="form-group">
+                  <label>Estado</label>
+                  <select  class="form-control">
+                    <option>Elegir</option>
+                    <option>Sonora</option>
+                    <option>Sonora2</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="form-group">
+                  <label >País</label>
+                  <select  class="form-control" >
+                    <option>Elegir</option>
+                    <option>Mexico</option>
+                    <option>Mexico2</option>
+                  </select>
+                </div>
+              </div>
+    
+              <div class="col-3">
+                <div class="form-group">
+                  <label >Código postal</label>
+                  <input type="text" class="form-control">
+                </div>
+              </div>    
+            </div>
+          </div>
+
+          <div class="col-4">
+            <h5>
+               <span class="text-muted">Carrito</span>
+               <span class="badge badge-secondary badge-pill">3</span> 
+            </h5>
+            <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h5>Molle-te</h5>
+                        <small class="text-muted">Delicioso pan con frijol cubierto de queso derretido</small>
+                    </div>
+                    <h6 class="text-muted">$20</h6>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h5>Coca de vidrio</h5>
+                        <small class="text-muted">Confirmo que es el dulce elixir de los dioses contenido en una botella de cristal para conservar al máximo su sabor</small>
+                    </div>
+                    <h6 class="text-muted">$15</h6>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h5>Gansito</h5>
+                        <small class="text-muted">Dulce pastelito relleno de fresa y crema con cubierta de chocolate ¡Recuérdame!</small>
+                    </div>
+                    <h6 class="text-muted">$15</h6>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h5 class="text-success">Cupón</h5>
+                        <small class="text-success">COVID19</small>
+                    </div>
+                    <h6 class="text-success">-$5</h6>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                    <div>
+                        <h5>Total (MXN)</h5>
+                    </div>
+                    <h6>$45</h6>
+                </li>
+            </ul>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Código de cupón">
+                        <div class="input-group-append">
+                            <button type="submit" class="btn btn-secondary">Ingresar</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+      </div>
+    </form>
+  
+  
+      <h2>Pago</h2>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" checked>
+        <label class="form-check-label">
+          Tarjeta de crédito
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" checked>
+        <label class="form-check-label">
+          Tarjeta de débito
+        </label>
+      </div>
+
+      <div class="form-check form-group">
+        <input class="form-check-input" type="radio" name="exampleRadios" checked>
+        <label class="form-check-label">
+          Paypal
+        </label>
+      </div>
+
+      <div class="col-8">
+        <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label class="form-check-label" >Nombre en la Tarjeta</label>
+                <input type="text" class="form-control">
+                <small class="form-text text-muted">Nombre completo como aparece en la tarjeta</small>
+              </div>
+            </div>
+      
+              <div class="col-6">
+                <div class="form-group">
+                  <label class="form-check-label">Número de tarjeta</label>
+                  <input type="number" class="form-control"  >
+                </div>
+              </div>
+      
+              <div class="col-4">
+                <div class="form-group">
+                  <label class="form-check-label">Expiración</label>
+                  <input type="number" class="form-control" >
+                </div>
+              </div>
+      
+              <div class="col-4">
+                <div class="form-group">
+                  <label class="form-check-label">CVV</label>
+                  <input type="text" class="form-control" >
+                </div>
+              </div>
+      
+              <div class="col-12">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Continuar con el pago</button>
+              </div>
+          </div>
+        </div>
+      
+       
+  
+  
+
+
+  <div class=" row justify-content-md-center">
+    <a href="#" class="text-decoration-none">Aviso de privacidad</a>  &nbsp; &nbsp;
+    <a href="#" class="text-decoration-none">Terminos y condiciones</a>  &nbsp; &nbsp;
+    <a href="#" class="text-decoration-none">Contacto</a> 
+  </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
